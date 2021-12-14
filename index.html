@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Leaflet CSS File -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <!-- Custome CSS file -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | IP Address Tracker</title>
+</head>
+<body>
+
+  <div id="app">
+
+    <div class="background-container">
+      <div class="background-img"></div>
+      <div class="heading1">
+        <h1>IP Address Tracker</h1>
+      </div>
+
+
+      <div class="search">
+        <form class="search-container">
+          <input type="text" class="search-input" placeholder="Search for any IP address or domain">
+          <button class="search-button" type="submit">
+            <img src="./images/icon-arrow.svg" alt="arrow" class="arrow-icon">
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <div id="results">
+      <div class="ip-address">
+        <span class="title">IP Address</span>
+        <span class="outcome"></span>
+      </div>
+      <div class="location">
+        <span class="title">Location</span>
+        <span class="outcome"></span>
+      </div>
+      <div class="timezone">
+        <span class="title">Timezone</span>
+        <span class="outcome"></span>
+      </div>
+      <div class="isp">
+        <span class="title">ISP</span>
+        <span class="outcome"></span>
+      </div>
+    </div>
+
+    <div id="mapid"></div>
+
+  </div>
+
+
+
+
+
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <!-- Leaflet JavaScript file -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <!-- Custome JavaScript File -->
+  <!-- <script src="./js/app.js"></script> -->
+
+  <!-- Test Code File -->
+  <script src="./js/test.js"></script>
+
+</body>
+</html>
