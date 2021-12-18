@@ -133,7 +133,7 @@ function setMap(lats, lngs) {
     
     
     var myIcon = L.icon({
-        iconUrl: '../images/icon-location.svg',
+        iconUrl: './images/icon-location.svg',
         iconSize: [38, 55],
         iconAnchor: [22, 94],
         popupAnchor: [-3, -76],
